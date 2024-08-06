@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="titulo-principal"> GENTE GRANDE: O MELHOR FILME DE COMÉDIA</h1>
+
+        <div class="banner">
+            <img src="https://rollingstone.uol.com.br/media/uploads/cena-de-gente-grande_reproducao_twitter.jpg">
+
+        </div>
+        
+        <div class="elenco">
+            <h2 class="titulo-elenco">ELENCO</h2>
+            
+            <div class="atores"> 
+                <div class="ator"> 
+                    <img src="https://static1.purepeople.com.br/articles/8/96/98/@/75068-dam-sandler-attends-the-premiere-of-1200x0-1.jpg" alt="Adam Sandler" class="ator">
+                    <p> Adam Samdler </p>
+                
+            </div>
+            <div class="ator">
+                <img src="https://images.filmesnocinema.com.br/artist-photos/medium_kevin-james.jpg" class="ator">
+                <p> Kevin James </p>
+                
+            </div>
+            <div class="ator">
+                <img src="https://br.web.img3.acsta.net/c_310_420/pictures/18/06/29/16/57/2462090.jpg" alt="David Spade" class="ator">
+                <p> David Spade </p>
+
+            </div>
+            <div class="ator">
+                <img src="https://image.gala.de/24045912/t/YU/v3/w1440/r0.6667/-/chris-rock-neu.jpg" alt="Chris Rock" class="ator">
+                <p> Chris Rock </p>
+                
+            </div>
+            <div class="ator">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Rob_Schneider_Photo_Op_GalaxyCon_Raleigh_2019.jpg" alt="Rob Schneider" class="ator">
+                <p> Rob Schneider </p>
+                
+            </div>
+            
+        </div>
+        <h2 class="titulo-elenco">SINOPSE</h2>
+
+        SINOPSE
+
+        "Gente Grande" é uma comédia que acompanha a história de cinco amigos de infância que se reúnem após muitos anos para celebrar a vida e lembrar os velhos tempos. Lenny (Adam Sandler), Eric (Kevin James), Kurt (Chris Rock), Marcus (David Spade) e Rob (Rob Schneider) enfrentam desafios típicos da vida adulta enquanto tentam reviver a nostalgia da juventude.A morte do treinador de basquete de infância de velhos amigos reúne a turma no mesmo lugar que celebraram um campeonato anos atrás. Os amigos, acompanhados de suas esposas e filhos, descobrem que idade não significa o mesmo que maturidade.
+
+    </div>
+    <div.class="avaliacoes">
+        <h2> Avaliações da crítica </h2>
+        <div class="site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rotten_Tomatoes_logo.svg/1280px-Rotten_Tomatoes_logo.svg.png">
+            <p>10%</p>
+        </div>
+
+        <div class="site">
+           <img src="https://seeklogo.com/images/I/imdb-logo-1CD1CCD432-seeklogo.com.png">
+           <p>6,0</p>
+       </div>
+
+       <div class="site">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Metacritic_M.png">
+           <p>não avaliado</p>
+       </div>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
+
+
+
+
+STYLE CSS
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(88, 49, 111);
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.banner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.ator{ 
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+
+.ator img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.ator:hover img{
+    transform: scale(1.1);
+}
+
+.titulo-sinopse{
+    font-size: 50px;
+}
+
+.sinopse{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.site img{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.avaliacoes{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    vertical-align: baseline;
+    align-items: center;
+}
